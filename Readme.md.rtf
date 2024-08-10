@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2816
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\margl1440\margr1440\vieww30040\viewh18900\viewkind0
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Disease Prediction Using Machine Learning\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\fs36 \cf0 Introduction\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 This project involves the application of various machine learning techniques to predict diseases based on symptoms. The dataset consists of 133 columns, with 132 representing different symptoms and the last column denoting the predicted outcome or prognosis. The symptoms are mapped to 42 diseases, and the goal is to train and test models using this data to achieve accurate predictions.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Problem Statement\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 The dataset comprises two CSV files containing a total of 133 columns each. Out of these columns, 132 represent various symptoms that an individual may exhibit. The last column denotes the predicted outcome or prognosis of the disease. These symptoms are mapped to 42 diseases. The objective was to train the model on training data and test it on testing data using different classification models.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Data Preparation\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 We began by cleaning the data to remove inconsistencies. Key steps included:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Calculating the mean of each feature to check for normalization opportunities.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Removing features such as 'fluid_overload,' which had no significant effect on the output when removed.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Approach and Algorithms Used\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 The following machine learning algorithms were implemented and compared:\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 1. Linear Regression\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description:
+\f1\b0  A statistical method used to model the relationship between a dependent variable and one or more independent variables.\
+\ls2\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementation:
+\f1\b0  Applied on the training dataset to predict the accuracy of the prognosis.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 2. Support Vector Machine (SVM)\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description:
+\f1\b0  A supervised learning algorithm used for classification and regression, focusing on finding a hyperplane that best separates classes in the data.\
+\ls3\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementation:
+\f1\b0  SVM was applied using different kernel functions to predict the prognosis.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 3. Decision Tree\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description:
+\f1\b0  A machine learning algorithm used for both regression and classification, which builds a tree-like structure of decisions and consequences.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementation:
+\f1\b0  Used to predict how the independent variables affect the target variable.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 4. Random Forest\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description:
+\f1\b0  An ensemble method combining multiple decision trees to improve prediction accuracy.\
+\ls5\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementation:
+\f1\b0  Trained multiple decision trees on random subsets of the training data and features, and aggregated their predictions.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 5. XGBoost\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls6\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description:
+\f1\b0  An ensemble machine learning algorithm using gradient boosting and multiple decision trees to make predictions.\
+\ls6\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementation:
+\f1\b0  Applied for its speed and accuracy, particularly on large datasets with high dimensionality.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Performance Evaluation\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 The models were evaluated based on their accuracy scores:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls7\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Linear Regression:
+\f1\b0  0.966\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Support Vector Machine (SVM):
+\f1\b0  1.000\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Decision Tree:
+\f1\b0  0.971\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Random Forest:
+\f1\b0  0.976\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 XGBoost:
+\f1\b0  0.920\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Conclusion\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 After conducting a comparative analysis of the machine learning algorithms on the symptom-based classification problem, it was concluded that the Support Vector Machine (SVM) performed the best with an accuracy score of 1.000. The SVM model's ability to handle high-dimensional data and find the optimal hyperplane made it a suitable choice for this problem. While the Decision Tree was easier to interpret and visualize, it lacked the accuracy and robustness of SVM.\
+}
